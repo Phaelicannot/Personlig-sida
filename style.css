@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgb(18, 32, 70);
+}
+
+header {
+    margin: auto;
+    background-color: rgb(18, 32, 70);
+    color: rgb(204, 227, 228);
+    text-align: center;
+}
+
+article {
+    background-color: rgb(144, 181, 183);
+    border: double 10px;
+    border-color: rgb(204, 227, 228);
+    
+    
+}
+footer {
+    background-color: rgb(18, 32, 70);
+    color: rgb(144, 181, 183);
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    margin-top: 80px;
+    color: rgb(18, 32, 70);
+    background-color:  rgb(204, 227, 228);
+    border: solid 5px;
+    border-color: rgb(18, 32, 70);
+    height: 50px;
+}
+
+.art {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    margin-top: 10px;
+    color: rgb(18, 32, 70);
+    background-color:  rgb(204, 227, 228);
+    border: solid 5px;
+    border-color: rgb(18, 32, 70);
+    height: 25px;
+}
+
+.cats {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    margin-top: 10px;
+    color: rgb(18, 32, 70);
+    background-color:  rgb(204, 227, 228);
+    border: solid 5px;
+    border-color: rgb(18, 32, 70);
+    height: 25px;
+}
+
+.food {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    margin-top: 10px;
+    color: rgb(18, 32, 70);
+    background-color:  rgb(204, 227, 228);
+    border: solid 5px;
+    border-color: rgb(18, 32, 70);
+    height: 25px;
+}
+
+.row {
+    display: grid;
+}
+
+a {
+    color: rgb(18, 32, 70);
+    background-color:  rgb(204, 227, 228);
+    border: solid 5px;
+    border-color: rgb(18, 32, 70);
+    height: auto;
+    margin-top: 10px; 
+}
